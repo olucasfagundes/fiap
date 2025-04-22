@@ -1,5 +1,6 @@
 ## Diagrama DER
 
+```mermaid
 erDiagram
     ORGANIZACAO ||--|| PROPRIETARIO : pertence
     ORGANIZACAO ||--o{ PRODUTOR : possui
@@ -97,3 +98,4 @@ erDiagram
         int id_insumo FK
         float quantidade
     }
+```

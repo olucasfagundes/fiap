@@ -97,6 +97,7 @@ Cada atributo foi cuidadosamente tipificado para garantir o armazenamento adequa
 
 O Diagrama Entidade-Relacionamento completo pode ser encontrado em [diagrama_der.md](diagrama_der.md). Este diagrama visual representa todas as entidades, atributos e relacionamentos do sistema, facilitando a compreensão da estrutura do banco de dados.
 
+```mermaid
 erDiagram
     ORGANIZACAO ||--|| PROPRIETARIO : pertence
     ORGANIZACAO ||--o{ PRODUTOR : possui
@@ -194,6 +195,7 @@ erDiagram
         string id_insumo FK
         float quantidade
     }
+```
 
 ## Conclusão
 
