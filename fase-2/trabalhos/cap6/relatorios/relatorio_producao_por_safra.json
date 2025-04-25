@@ -1,0 +1,23 @@
+[
+    {
+        "id_safra": "S1",
+        "ano": 2024,
+        "produto": "Soja",
+        "previsao_producao_kg": 150000.0,
+        "producao_real_kg": 148000.0
+    },
+    {
+        "id_safra": "S2",
+        "ano": 2024,
+        "produto": "Milho",
+        "previsao_producao_kg": 120000.0,
+        "producao_real_kg": 119000.0
+    },
+    {
+        "id_safra": "S3",
+        "ano": 2024,
+        "produto": "Alface",
+        "previsao_producao_kg": 20000.0,
+        "producao_real_kg": 19800.0
+    }
+]
